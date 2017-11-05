@@ -49,3 +49,10 @@ __Attached screenshots of passed materials__
 >GitHub & Collaboration
 
 ![GitHub & Collaboration](https://github.com/DariaShvydka/kottans_frontend/blob/master/task_2/task2_course_2.png)
+
+---
+
+## :heavy_check_mark: Task 3
+- I have learned more about the encoding ASCII and found quite useful text editor Emacs.
+- To be honest – nothing, cause I’m already work like html-css coder 😃. 
+- All knowledge that was provided in the course, I used previously and am going to use them it further.
