@@ -53,6 +53,34 @@ __Attached screenshots of passed materials__
 ---
 
 ## :heavy_check_mark: Task 3
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_3)__
+
 - I have learned more about the encoding ASCII and found quite useful text editor Emacs.
 - To be honest – nothing, cause I’m already work like html-css coder 😃. 
 - All knowledge that was provided in the course, I used previously and am going to use them it further.
+
+---
+
+## :heavy_check_mark: Task 4
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_4)__
+
+__Lesson 1:__
+Using Dev Tools On Android Mobile with browser Google Canary was really cool, easy, useful and totally new and surprised me.
+Finally found good responsinator, which I will definitely use in future.
+
+__Lesson 2:__
+Surprised, that our fingers are about ten millimeters wide, or half an inch, which works out to be about 40 css pixels. And in that case – tap targets at mobiles must be at least 40 pixels.
+Always started to coding from medium and large screens, moving toward tablets and mobile devices. Now I want to start coding designs from smallest viewport to bigger.
+
+__Lesson 3:__
+Lesson was about media queries and breakpoints, so it isn’t new to me.
+
+__Lesson 4:__
+I remembered about orders in flexbox. It was quite helpful stuff.
+I didn’t know that mobile-hamburger menu sounds like Off Canvas :) 
+
+__Lesson 5:__
+I was surprised that the ideal measure about 65 characters per line.
+And I remembered a small recommendation, which I plan to use in the future for mobile design:
+16px font-size
+1.2em line height
