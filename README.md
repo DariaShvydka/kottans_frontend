@@ -84,3 +84,35 @@ I was surprised that the ideal measure about 65 characters per line.
 And I remembered a small recommendation, which I plan to use in the future for mobile design:
 16px font-size
 1.2em line height
+
+---
+
+## :heavy_check_mark: Task 5
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_5)__
+
+__Lesson 1:__
+I saved shortcuts for chrome devtool <https://developers.google.com/web/tools/chrome-devtools/shortcuts>
+That was usefully :) 
+
+__Lesson 2:__
+Nothing new, but I repeated booleans equations, thats was helpful.
+
+__Lesson 3:__
+I remembered logical operators and switch case statement. that never used in my work. I hope I will using this statement in future, when there are suitable tasks for it.
+
+__Lesson 4:__
+I really like loops, but always used «for». In this lesson I understood how to correctly use while and nested loops)
+Never thought in that direction, that the incrementing or decrementing step we can mark like «How to get to the next item». Helpful thing)  
+
+__Lesson 5:__
+I understood important thing, that «return» and «print are not the same thing. Printing a value to the JavaScript console only displays a value (that you can view for debugging purposes), but the value it displays can't really be used for anything more than that. 
+Was really interesting to learn the concept hoisting – variable and function declarations are put into memory during the compile phase, but stays exactly where you typed it in your coding. JavaScript hoists function declarations and variable declarations to the top of the current scope.
+
+__Lesson 6:__
+For myself I learned better method, slice (), that returns a new array, that containing a copy of the part of the original array and had practice with forEach() loop.
+
+__Lesson 7:__
+If be clear – nothing. The objects were treated superficially and I already knew all the information.
+
+---
+
