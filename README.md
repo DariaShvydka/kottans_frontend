@@ -116,3 +116,24 @@ If be clear – nothing. The objects were treated superficially and I already kn
 
 ---
 
+## :heavy_check_mark: Task 6
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_6)__
+
+
+__New:__
+Hard and new course to me. I did not have a practice with access to the data of the object. 
+So everything in the lesson was new and very interesting for me. New to me was this, call, apply methods, property of Object – «.constructor», that returns a reference to the Object constructor function that created the instance object.  
+
+__Surprised:__
+Surprised by programming technique decorator, that allows you to take an existing function and change / expand its behavior.
+
+__Will use in Future:__
+I hope all. Really interested in object-oriented methodics, but it's still hard for me, hard to put the information in my head. 
+So I will learn and practice OOP JS and further.
+
+>GAME FROM TASK 11
+
+[repository](https://github.com/DariaShvydka/frontend-nanodegree-arcade-game)
+[demo](https://dariashvydka.github.io/frontend-nanodegree-arcade-game/)
+
+---
