@@ -137,3 +137,16 @@ So I will learn and practice OOP JS and further.
 [demo](https://dariashvydka.github.io/frontend-nanodegree-arcade-game/)
 
 ---
+## :heavy_check_mark: Task 7
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_7)__
+
+__New:__
+I haven’t even heard of such an instrument as a Service Worker. IndexedDB storage - not new word for me :), but I didn’t know that exist NOSQL storages on the client side.
+
+__Surprised:__
+Previously, I only encountered sql databases, so I was really surprised, that IndexedDB doesn’t operate on tables, but on object stores (ObjectStore).
+
+__Will use in Future:__
+Course with Jake Archibald was really interesting, materials have been filed in an entertaining and exciting line… but, the course was too complicated for me. I'm not yet sure how to apply what I saw in the future.
+
+---
