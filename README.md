@@ -150,3 +150,11 @@ __Will use in Future:__
 Course with Jake Archibald was really interesting, materials have been filed in an entertaining and exciting line… but, the course was too complicated for me. I'm not yet sure how to apply what I saw in the future.
 
 ---
+
+---
+## :heavy_check_mark: Task 8
+__[Demo Memory Game](https://dariashvydka.github.io/memory-pair-game/)__
+
+It was really hard for me – to write some self-javascript code.
+
+---
