@@ -158,3 +158,16 @@ __[Demo Memory Game](https://dariashvydka.github.io/memory-pair-game/)__
 It was really hard for me – to write some self-javascript code.
 
 ---
+
+## :heavy_check_mark: Task 9
+__[Attached screenshots of passed materials](https://github.com/DariaShvydka/kottans_frontend/tree/master/task_9)__
+
+__New:__
+To me new was, generally, term of Critical Rendering Path.
+
+__Surprised:__
+I was surprised that CSS is a blocking renderer of the resource.
+
+__Will use in Future:__
+Course shows me how necessary is to optimize the content of web page, a js and CSS files. I plan to use Performance tab in the devtools-panel, asynchronous scripts and other useful stuff, that was presented in the course.
+---
