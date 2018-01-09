@@ -170,4 +170,5 @@ I was surprised that CSS is a blocking renderer of the resource.
 
 __Will use in Future:__
 Course shows me how necessary is to optimize the content of web page, a js and CSS files. I plan to use Performance tab in the devtools-panel, asynchronous scripts and other useful stuff, that was presented in the course.
+
 ---
