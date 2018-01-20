@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url(../fonts/Proxima-Nova-Regular.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url(../fonts/Proxima-Nova-Bold.otf);
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'ProximaNovaSemi';
+  src: url(../fonts/Proxima-Nova-Semibold.otf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url(../fonts/Proxima-Nova-Light.otf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'Font Awesome 5 Regular';
+  src: url(../fonts/fa-regular-400.ttf); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Solid';
+  src: url(../fonts/fa-solid-900.ttf);}
+
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --default-padding: 20px;
+    --header-height: 80px;
+    --sticky-pos: 10px;
+}
+
+body {
+  background-color: #eceef4;
+  font: 14px 'ProximaNovaRegular', sans-serif;
+  color: #6e768f;
+}
+
+main {
+  background-color: #fff;
+  border: 1px solid #c9d0e1;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid #c9d0e1;
+}
+
+section {
+  display: flex;
+}
+
+.wrapper {
+  padding: 0 100px;
+}
+
+.header__first {
+  flex-basis: 45%;
+  padding: 30px 0 30px 50px;
+  letter-spacing: 1px;
+}
+
+.header__first ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__first li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header__first i {
+  position: absolute;
+  left: 3%;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font: 13px "ProximaNovaSemi", sans-serif;
+}
+
+.list__title {
+  text-transform: uppercase;
+  font: 13px "ProximaNovaSemi", sans-serif;
+}
+
+.header__second {
+  flex-basis: 20%;
+  padding: 30px 0;
+  border-right: 1px solid #c9d0e1;
+}
+
+.header__third {
+  flex-basis: 35%;
+  padding: 30px 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.header_right a {
+  font-family: "ProximaNovaSemi", sans-serif;
+  color: #6e768f;
+  text-decoration: none;
+}
+
+.description_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.description_h {
+  text-transform: uppercase;
+}
+
+.header_btn {
+  border-radius: 3px;
+  width: 170px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #f7f7fa;
+  border: 1px solid #d7d8e0;
+  color: #a5abc5;
+  font: 13px 'ProximaNovaSemi', sans-serif;
+}
+
+.header_btn-inverse {
+  background-color: #5fcac6;
+  border: 1px solid #54aca9;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.selection {
+    padding: 100px 0 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.selection h1 {
+    font: 24px "ProximaNovaRegular", sans-serif;
+    letter-spacing: 2px;
+}
+
+.selection hr {
+    width: 500px;
+}
+
+.selection__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection__answer {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 28%;
+    height: 180px;
+    vertical-align: top;
+    font-size: 22px;
+    text-align: center; 
+    position: relative;
+}
+
+.selection__answer-checked {
+    display: inline-block;
+    right: -4%;
+    position: absolute;
+    top: 9%;
+    visibility: hidden;
+}
+
+.selection label {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+    background-color: #f7f7fa;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.selection label:hover,
+.selection label:hover,
+.selection label:focus, 
+.selection label:active {
+    border: 5px solid #76a7e1;
+}
+
+.selection input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.selection input[type="radio"]:active ~ label {
+  opacity: 1;
+}
+
+.selection input[type="radio"]:checked ~ label {
+  opacity: 1;
+  border: 5px solid #76a7e1;
+}
+
+input[type=radio]:checked ~ .selection__answer-checked::before {
+    content: url(../images/check-ico.png);
+    visibility: visible;
+}
+
+.selection img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.numeration {
+  position: absolute;
+  left: 3%;
+  padding: 3px 11px;
+  font: 21px "ProximaNovaSemi", sans-serif;
+  border: 1px solid;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.upload {
+/*  padding: 0 30px;*/
+  display: inline-block;
+}
+
+.upload h2 {
+  display: inline-block;
+  margin: 0;
+}
+
+.upload span {
+  font-family: 'ProximaNovaLight';
+  letter-spacing: 1px;
+  color: #9fa5b8;
+}
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  width: 220px;
+  background-color: #f7f7fa;
+  border: 1px solid #d7d9e0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+}
+
+.file-upload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  width: 100%;
+}
