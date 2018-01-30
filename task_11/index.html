@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Task 11 Kottans</title>
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -34,11 +35,11 @@
                 
             </div>
             <div class="header__second">
-                <button class="header_btn header_btn-inverse"> Place Order</button> 
+                <button class="header_btn btn-inverse"> Place Order</button> 
                 <button class="header_btn">Print a Quote</button>
             </div>
             <div class="header__third">
-                <div> Help Center</div>
+                <div> <i class="far fa-life-ring"></i>Help Center</div>
             <div>If you need assistance while placing your
             order, contact one of our beloved Project
             Manager by phone or email.</div>
@@ -85,20 +86,237 @@
                  </div>         
         </div>
         
-        <section class="">
-            <div class="upload">
+        <section class="download">
+            <div class="download__upload">
             <h2><span class="numeration">1</span>Upload your documents</h2> <span>(Doc,Docx,Text,PDF,Markdown)</span>
-                <div class="file-upload btn btn-primary">
+                <div class="download__file btn btn-primary">
                     <i class="fas fa-cloud-download-alt"></i>
                     <span>Upload a new file</span>
-                    <input type="file" class="upload" id="upload-btn" />
+                    <input type="file" class="download__btn" id="upload-btn" />
                 </div>
             </div>
+
+            <div class="download__table">
+              <table cellspacing="0">
+               <tr>
+                <th>File name</th><th>File size</th><th>Number of words</th><th class="download__table-center">Remove</th>
+               </tr>
+               <tr>
+                <td><button class="btn__download"><i class="fas fa-file-alt"></i></button>buisness_operations.docx</td><td>78kb</td><td>842</td><td class="download__table-center"><button class="btn__remove"><i class="fas fa-trash"></i></button></td>
+               </tr>
+               <tr>
+                <td><button class="btn__download"><i class="fas fa-file-alt"></i></button>buisness_financial.docx</td><td>26kb</td><td>2,326</td><td class="download__table-center"><button class="btn__remove"><i class="fas fa-trash"></i></button></td>
+               </tr>
+              </table>
+            </div>
         </section>
+
+         <section class="languages">
+            <h2><span class="numeration">2</span>Choose your languages pairings</h2>
+              <div class="languages__select--wrapper">
+                <span>From</span>
+                <div class="languages__select">
+                  <select name="language">
+                    <option disabled>language</option>
+                    <option selected value="English">English</option>
+                    <option value="Russian">Russian</option>
+                    <option value="Arabian">Arabian</option>
+                    <option value="Kurdish">Kurdish</option>
+                 </select>
+                </div>      
+            </div>
+
+
+            <div class="languages__select--wrapper">
+              <span class="languages__select--padding">To</span>
+              <div class="languages__select">
+                 <select name="language">
+                  <option disabled>language</option>
+                  <option value="English">English</option>
+                  <option value="Russian">Russian</option>
+                  <option selected value="Arabian">Arabian</option>
+                  <option value="Kurdish">Kurdish</option>
+                 </select>
+             </div>
+
+             <div class="languages__select">
+              <select name="language">
+                <option disabled>language</option>
+                <option value="English">English</option>
+                <option value="Russian">Russian</option>
+                <option value="Arabian">Arabian</option>
+                <option selected value="Kurdish">Kurdish</option>
+             </select>
+           </div>
+             
+             <button class="btn__remove"><i class="fas fa-trash"></i></button>
+
+             <button class="languages__btn-last">+ Add</button>
+
+            </div>
+
+        </section>
+
+        <section class="details">
+
+          <div class="details__tone">
+             <h2><span class="numeration">3</span>Select your desire tone</h2>
+
+
+                <div class="details__block">
+                    <div class="details__answer"> 
+                      <input type="radio" name="casual" id="casual" value="friendly" > 
+                      <label for="casual">
+                          <i class="fas fa-comments"></i>
+                              Friendly/Casual
+                      </label> 
+                      <div class="details__answer-checked"></div>
+                    </div>
+
+                     <div class="details__answer"> 
+                      <input type="radio" name="pro" id="pro" value="corporate" checked> 
+                      <label for="pro">
+                          <i class="fas fa-suitcase"></i>
+                              Corporate/Pro
+                      </label> 
+                      <div class="details__answer-checked"></div>
+                    </div>
+
+                     <div class="details__answer"> 
+                      <input type="radio" name="formal" id="formal" value="media" > 
+                      <label for="formal">
+                          <i class="fas fa-bullhorn"></i>
+                              Media/Formal
+                      </label> 
+                      <div class="details__answer-checked"></div>
+                    </div>
+               </div>
+            
+          </div>
+
+          <div class="details__job">
+             <h2><span class="numeration">4</span>Tell us how urgent this job is</h2>
+              <div class="details__range-wrapper">
+                <input type="range" min="0" max ="100" step="50">
+                <span>I got time</span>
+                <span class="details__range--yellow">Avarage</span>
+                <span>Yesterday</span>
+              </div>
+
+              <div class="details__job-info">
+                <p> Timeline info </p>
+                <p>With an <span>Avarage</span> timeline set up, our expert translator can take a<br> 
+                  resonable amount of time perfecting your translation
+                </p>
+              </div>
+          </div>
+          
+        </section> 
+
+        <section class="payment">
+
+          <h2><span class="numeration">5</span>Sign up and choose a payment method</h2>
+
+          <p>Already have an account with us? <a href="#">Sign in</a>.</p>
+          
+          <div class="payment__wrapper">
+            <div class="payment__inner">
+              <label for="full-name">Full name</label>
+              <div class="payment__inner-registration">
+                <input type="text" value="" name="full-name" id="full-name" pattern="^[a-zA-Z ,.'-]+$" required>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="payment__wrapper">
+            <div class="payment__inner">
+              <label for="email">Email address</label>
+              <div class="payment__inner-registration">
+                <input type="email" value="" name="email" id="email" required>
+                <span></span>
+              </div>
+            </div>
+            
+            <div class="payment__inner">
+              <label for="password">Choose a password</label>
+              <div class="payment__inner-registration">
+                <input type="password" value="" name="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required title="UpperCase, LowerCase and Number">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="payment__radio-wrapper">
+
+            <label class="select-type">
+              <input checked required type="radio" name="payment-method" value="website"/>
+              <div class="select-wrapper" id="visa-mastercard">
+              </div>
+            </label>
+
+            <label class="select-type">
+              <input required type="radio" name="payment-method" value="documents"/>
+              <div class="select-wrapper" id="paypal">
+              </div>
+            </label>
+
+            <label class="select-type">
+              <input required type="radio" name="payment-method" value="social_account"/>
+              <div class="select-wrapper" id="amazon">
+              </div>
+            </label>
+
+          </div>
+
+          <div class="payment__wrapper">
+            <div class="payment__inner card-number">
+              <label for="card-number">Card number</label>
+              <div>
+                <input type="text" value="" name="card-number" id="card-number" pattern="((4\d{3})|(5[1-5]\d{2}))( |)?\d{4}(\4\d{4}){2}" required>
+                <span></span>
+              </div>
+            </div>
+
+            <div class="payment__inner expiry-date">
+              <label for="expiry-date">Expiry date</label>
+              <div>
+                <input type="text" placeholder="DD/MM/YY" name="expiry-date" id="expiry-date" pattern="(0[1-9]|[12][0-9]|3[01])[- \/.](0[1-9]|1[012])[- \/.](1[89]|2\d)" required>
+                <span></span>
+              </div>
+            </div>
+
+            <div class="payment__inner code">
+              <label for="code">Code</label>
+              <div>
+                <input type="password" value="" name="code" id="code" pattern="[0-9]{3}" title="three-digit code" required>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+          <footer>
+            <form>
+              <label><input type="checkbox" value="" name="checkbox" id="checkbox">
+              I agree to the <a href="">Terms &amp; Conditions</a></label>
+              <button class="footer__btn btn-inverse"> Place Order</button> 
+                <button class="footer__btn">Print a Quote</button>
+            </form> 
+          </footer>
+    
+
     </div>
 
-<!--    RANGE     https://jsfiddle.net/acwa07ma/ -->
-
     </main>
+
+<script>
+  FontAwesomeConfig = { searchPseudoElements: true };
+</script>
+
 </body>
 </html>
+
+    
+
